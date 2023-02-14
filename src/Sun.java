@@ -12,6 +12,6 @@ public class Sun {
 		g2.fillOval(sunX, sunY, BODY_LENGTH, BODY_HEIGHT);
 		int x = sunX + BODY_LENGTH;
 		int y = sunY + BODY_HEIGHT;
-		g2.drawString("Yo its the sun!", sunX, sunY+BODY_HEIGHT+10);	
+		g2.drawString("Yellow is hard to read!", sunX, sunY+BODY_HEIGHT+10);	
 	}
 }
